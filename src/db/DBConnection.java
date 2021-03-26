@@ -7,10 +7,10 @@ import java.sql.*;
  */
 public class DBConnection {
 
-	private static final String SERVER_NAME = "hildur.ucn.dk";
-	private static final String DB_NAME = "dmai0919_1081509";
-	private static final String LOGIN = "dmai0919_1081509";
-	private static final String PASSSWORD = "Password1!";
+	private static final String SERVER_NAME = "";
+	private static final String DB_NAME = "";
+	private static final String LOGIN = "";
+	private static final String PASSSWORD = "";
 
 	private static final String CONNECTION_STR = "jdbc:sqlserver://" + SERVER_NAME + ":1433;databaseName=" + DB_NAME;
 
