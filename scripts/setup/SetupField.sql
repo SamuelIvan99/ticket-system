@@ -1,0 +1,14 @@
+USE dmai0919_1081509
+
+CREATE TABLE Field
+(
+    FieldID INT IDENTITY(1, 1) NOT NULL,
+
+    Name VARCHAR(50) NOT NULL,
+    Content VARCHAR(100),
+
+    InquiryID INT NOT NULL,
+
+    CONSTRAINT PK_Field PRIMARY KEY (FieldID),
+    CONSTRAINT FK_Inquiry FOREIGN KEY (InquiryID) REFERENCES Inquiry(InquiryID)
+)

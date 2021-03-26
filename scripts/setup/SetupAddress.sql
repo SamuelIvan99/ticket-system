@@ -1,0 +1,13 @@
+USE dmai0919_1081509
+
+CREATE TABLE Address
+(
+    AddressID INT IDENTITY(1, 1) NOT NULL,
+
+    Country VARCHAR(50) NOT NULL,
+    Zipcode VARCHAR(25) NOT NULL,
+    StreetName VARCHAR(75) NOT NULL,
+    StreetNumber SMALLINT NOT NULL
+
+    CONSTRAINT PK_AddressID PRIMARY KEY (AddressID)
+)
